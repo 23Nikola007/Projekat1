@@ -53,15 +53,17 @@ a:hover {
 }
 
 .promo-bar-content {
+  display: inline-flex;
   white-space: nowrap;
-  display: inline-block;
   animation: scroll-left 15s linear infinite;
 }
 
+
 .promo-bar-content p {
   display: inline-block;
-  padding-left: 100%;
   margin: 0;
+  padding-right: 80%;
+  flex-shrink: 0;
 }
 .promo-bar-content a {
     text-decoration: none;
@@ -70,6 +72,10 @@ a:hover {
 .promo-bar-content a:hover {
     text-decoration: none;
     color: silver;
+}
+
+.promo-bar:hover .promo-bar-content {
+  animation-play-state: paused;
 }
 
 @keyframes scroll-left {
