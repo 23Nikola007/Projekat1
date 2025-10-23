@@ -1,3 +1,7 @@
+body{
+    background: url('https://img.freepik.com/free-vector/geometric-pattern-background-vector-white_53876-128361.jpg');
+}
+
 #content {
   max-width: 1000px;
   margin: 40px;
@@ -5,9 +9,14 @@
   color: #333;
   line-height: 1.6;
 }
+.banner{
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px; 
+}
 
 .bluetext {
-  color: blue;
+  color:#5075B6;
 }
 
 h2 {
@@ -101,9 +110,14 @@ a:hover {
   border-collapse: separate;
   border-spacing: 30px;
 }
+.product-table img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; 
+}
 
 .product-table td {
-  background-color: #f9f9f9;
+  background-color: #f9f9f9;    
   padding: 15px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
