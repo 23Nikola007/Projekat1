@@ -204,6 +204,37 @@ a:hover {
   border: none;
 }
 
+.contact-form label{
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 0.9em;
+}
+
+.submit-btn{
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-btn:hover{
+    background-color: #ff3b2e;
+}
+
 /* Footer */
 .footer {
   background-color: #222;
