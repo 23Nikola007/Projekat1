@@ -1,73 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt - Kengo</title>
-    <meta name="description" content="Graficki studio Kengo Novi Sad">
-    <meta name="keywords" content="kengo, stikeri, foliotisak, etikete, pvc etikete, samolepljive etikete, novi sad, graficki studio, grafika">
-    <meta name="author" content="Nikola Prodanovic">
-    
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt - Kengo</title>
+  <meta name="description" content="Graficki studio Kengo Novi Sad">
+  <meta name="keywords" content="kengo, stikeri, foliotisak, etikete, pvc etikete, samolepljive etikete, novi sad, graficki studio, grafika">
+  <meta name="author" content="Nikola Prodanovic">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="promo-bar">
-                <div class="promo-bar-content">
-                    <p> <a href="#content1">🎨 POSTOJI MNOŠTVO RAZLOGA ZBOG KOJIH JE KENGO PRAVO MESTO ZA TEBE. 🖼️       &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;       <u>SAZNAJ VIŠE</u></a></p>
-                    <p> <a href="#content1">🎨 POSTOJI MNOŠTVO RAZLOGA ZBOG KOJIH JE KENGO PRAVO MESTO ZA TEBE. 🖼️       &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;       <u>SAZNAJ VIŠE</u></a></p>
-                    <p> <a href="#content1">🎨 POSTOJI MNOŠTVO RAZLOGA ZBOG KOJIH JE KENGO PRAVO MESTO ZA TEBE. 🖼️       &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;       <u>SAZNAJ VIŠE</u></a></p>
-                    <p> <a href="#content1">🎨 POSTOJI MNOŠTVO RAZLOGA ZBOG KOJIH JE KENGO PRAVO MESTO ZA TEBE. 🖼️       &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;       <u>SAZNAJ VIŠE</u></a></p>
-                  </div>
-            </div>
-            <img class="logo" src="https://kengo.rs/wp-content/uploads/2024/06/kengo-logo-1.svg" alt="logo" width=300 >
-            <p>KONTAKT</p>
 
-            <ul class="menuitem">
-                <li><a href="onama.html"> O nama</a></li>
-                <li><a href="index.html"> Početna stranica</a></li>
-            </ul>
+  <div class="promo-bar text-center">
+    <div class="promo-bar-content">
+      <p><a href="#kontakt">🎨 POSTOJI MNOŠTVO RAZLOGA ZBOG KOJIH JE KENGO PRAVO MESTO ZA TEBE 🖼️ | <u>SAZNAJ VIŠE</u></a></p>
+    </div>
+  </div>
 
-    <div id="content">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://kengo.rs/wp-content/uploads/2024/06/kengo-logo-1.svg" alt="logo" width="120">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="onama.html">O nama</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Početna</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-        <div id="kontakt">
-            <h3>KONTAKTIRAJ NAS:</h3>
-            <p>Slobodno nas kontaktirajte putem jednog od navedenih kanala:</p>
-            <ul>
-                <li>Adresa: Temerinska 11, Novi Sad</li>
-                <li>Email: <a href="mailto:info@kengo.rs">info@kengo.rs</a></li>
-                <li>Telefon: +381 (0)66 80 20 021</li>
-            </ul>
-            <div class="mapa">
-                <iframe id="mapa" loading="lazy" src="https://maps.google.com/maps?q=Temerinska%2011%2C%20Novi%20sad&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" title="Temerinska 11, Novi Sad"></iframe>
-            </div>
-        </div>
+  <div class="container my-5" id="kontakt">
+    <h1 class="text-center mb-4">Kontaktiraj nas</h1>
+    <p class="text-center">Slobodno nas kontaktirajte putem jednog od navedenih kanala:</p>
 
-        <form action="mailto:mojmail@gmail.com" method="post" enctype="text/plain" class="contact-form">
-            <label for="ime">Ime:</label>
-            <input type="text" name="ime" id="ime" placeholder="Tvoje ime..." required>
+    <ul class="list-group mb-4">
+      <li class="list-group-item">Adresa: Temerinska 11, Novi Sad</li>
+      <li class="list-group-item">Email: <a href="mailto:info@kengo.rs">info@kengo.rs</a></li>
+      <li class="list-group-item">Telefon: +381 (0)66 80 20 021</li>
+    </ul>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="Tvoj email..." required>
-
-            <label for="text">Poruka:</label>
-            <textarea name="text" id="text" cols="30" rows="6" placeholder="Napiši šta želiš..." required></textarea>
-
-            <button type="submit" class="submit-btn">Pošalji</button>
-        </form>
-
-        <div id="radnovreme">
-            <h3>RADNO VREME:</h3>
-            <ul>
-                <li>Pon-Pet: 09 - 17</li>
-                <li>Vikendom: ne radimo</li>
-            </ul>
-        </div>
-
-        <a href="index.html" class="nazad">nazad</a>
+    <div class="ratio ratio-16x9 mb-5">
+      <iframe src="https://maps.google.com/maps?q=Temerinska%2011%2C%20Novi%20sad&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" title="Temerinska 11, Novi Sad"></iframe>
     </div>
 
-    <footer class="footer">
-        <p>Grafički studio Kengo. 2025®</p>
-    </footer>
+    <h2 class="mb-4">Pošaljite poruku</h2>
+    <form action="mailto:mojmail@gmail.com" method="post" enctype="text/plain" class="p-4 border rounded shadow">
+      <div class="mb-3">
+        <label for="ime" class="form-label">Vaše ime</label>
+        <input type="text" name="ime" id="ime" class="form-control" placeholder="Unesite Vaše ime..." required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Vaš email</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Unesite Vaš email..." required>
+      </div>
+      <div class="mb-3">
+        <label for="text" class="form-label">Vaša poruka</label>
+        <textarea name="text" id="text" class="form-control" rows="6" placeholder="Napišite šta želite..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Pošaljite poruku</button>
+    </form>
+
+
+    <div class="mt-5">
+      <h2>Radno vreme</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Pon-Pet: 09 - 17h</li>
+        <li class="list-group-item">Vikendom: ne radimo</li>
+      </ul>
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="index.html" class="btn btn-primary">Nazad</a>
+    </div>
+  </div>
+
+  <footer class="footer bg-dark text-white text-center py-3">
+    <p>Grafički studio Kengo. 2025®</p>
+  </footer>
+
 </body>
 </html>
