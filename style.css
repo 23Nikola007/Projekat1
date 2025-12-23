@@ -1,11 +1,30 @@
+<<<<<<< HEAD
 body {
+=======
+body{
+    background: url('https://img.freepik.com/free-vector/geometric-pattern-background-vector-white_53876-128361.jpg');
+}
+
+#content {
+  max-width: 1000px;
+  margin: 40px;
+>>>>>>> 3d1c8b98ebab687620de29b83bea04c44b87be0a
   font-family: 'Poppins', sans-serif;
   color: #333;
   line-height: 1.6;
 }
+.banner{
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px; 
+}
 
 .bluetext {
+<<<<<<< HEAD
   color: #0d6efd; 
+=======
+  color:#5075B6;
+>>>>>>> 3d1c8b98ebab687620de29b83bea04c44b87be0a
 }
 
 h2 {
@@ -69,7 +88,50 @@ a:hover {
   100% { transform: translateX(-200%); }
 }
 
+<<<<<<< HEAD
 .product-card {
+=======
+/* Menu */
+.menuitem {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: left;
+}
+
+.menuitem a {
+  color: purple;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menuitem a:hover {
+  color: #ffcc00;
+}
+
+/* Product table */
+.product-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 30px;
+}
+.product-table img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.product-table td {
+  background-color: #f9f9f9;    
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+>>>>>>> 3d1c8b98ebab687620de29b83bea04c44b87be0a
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 12px;
   overflow: hidden;
@@ -145,3 +207,47 @@ a:hover {
   box-shadow: 0 8px 20px rgba(0,0,0,0.5);
   border: none;
 }
+<<<<<<< HEAD
+=======
+
+.contact-form label{
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 0.9em;
+}
+
+.submit-btn{
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-btn:hover{
+    background-color: #ff3b2e;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+>>>>>>> 3d1c8b98ebab687620de29b83bea04c44b87be0a
