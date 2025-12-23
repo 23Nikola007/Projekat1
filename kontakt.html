@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kontakt - Kengo</title>
-  <meta name="description" content="Graficki studio Kengo Novi Sad">
-  <meta name="keywords" content="kengo, stikeri, foliotisak, etikete, pvc etikete, samolepljive etikete, novi sad, graficki studio, grafika">
+  <meta name="description" content="Kontaktirajte grafički studio Kengo Novi Sad">
+  <meta name="keywords" content="kengo, kontakt, novi sad, graficki studio, dizajn, štampa">
   <meta name="author" content="Nikola Prodanovic">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -14,10 +14,15 @@
 <body>
 
   <div class="promo-bar text-center">
-    <div class="promo-bar-content">
-      <p><a href="#kontakt">🎨 POSTOJI MNOŠTVO RAZLOGA ZBOG KOJIH JE KENGO PRAVO MESTO ZA TEBE 🖼️ | <u>SAZNAJ VIŠE</u></a></p>
-    </div>
+  <div class="promo-bar-content">
+    <p>
+      <a href="index.html#content1">
+        🎨 POSTOJI MNOŠTVO RAZLOGA ZBOG KOJIH JE KENGO PRAVO MESTO ZA VAS 🖼️ | <u>SAZNAJ VIŠE</u>
+      </a>
+    </p>
   </div>
+</div>
+
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -36,73 +41,47 @@
     </div>
   </nav>
 
-  <div class="container my-5" id="kontakt">
-    <h1 class="text-center mb-4">Kontaktiraj nas</h1>
-    <p class="text-center">Slobodno nas kontaktirajte putem jednog od navedenih kanala:</p>
+  <div class="container my-5" id="contact">
+    <div class="text-center mb-5">
+      <h1 class="fw-bold text-primary">Kontaktirajte nas</h1>
+      <p class="text-muted">Imate pitanja ili želite ponudu? Pošaljite nam poruku!</p>
+    </div>
 
-    <ul class="list-group mb-4">
-      <li class="list-group-item">Adresa: Temerinska 11, Novi Sad</li>
-      <li class="list-group-item">Email: <a href="mailto:info@kengo.rs">info@kengo.rs</a></li>
-      <li class="list-group-item">Telefon: +381 (0)66 80 20 021</li>
-    </ul>
-
-<<<<<<< HEAD
-    <div class="ratio ratio-16x9 mb-5">
-      <iframe src="https://maps.google.com/maps?q=Temerinska%2011%2C%20Novi%20sad&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" title="Temerinska 11, Novi Sad"></iframe>
-=======
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="Tvoj email..." required>
-
-            <label for="text">Poruka:</label>
-            <textarea name="text" id="text" cols="30" rows="6" placeholder="Napiši šta želiš..." required></textarea>
-
-            <button type="submit" class="submit-btn">Pošalji</button>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <form class="p-4 bg-light rounded shadow-sm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Ime i prezime</label>
+            <input type="text" class="form-control" id="name" placeholder="Vaše ime">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email adresa</label>
+            <input type="email" class="form-control" id="email" placeholder="ime@primer.com">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Poruka</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Vaša poruka..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Pošalji</button>
         </form>
-
-        <div id="radnovreme">
-            <h3>RADNO VREME:</h3>
-            <ul>
-                <li>Pon-Pet: 09 - 17h</li>
-                <li>Vikendom: ne radimo</li>
-            </ul>
-        </div>
-
-        <a href="index.html" class="nazad">nazad</a>
->>>>>>> 3d1c8b98ebab687620de29b83bea04c44b87be0a
+      </div>
     </div>
 
-    <h2 class="mb-4">Pošaljite poruku</h2>
-    <form action="mailto:mojmail@gmail.com" method="post" enctype="text/plain" class="p-4 border rounded shadow">
-      <div class="mb-3">
-        <label for="ime" class="form-label">Vaše ime</label>
-        <input type="text" name="ime" id="ime" class="form-control" placeholder="Unesite Vaše ime..." required>
+    <div class="text-center my-5">
+      <h2 class="fw-bold">Naša lokacija</h2>
+      <p class="text-muted">Posetite nas u Novom Sadu</p>
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." 
+          style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
-      <div class="mb-3">
-        <label for="email" class="form-label">Vaš email</label>
-        <input type="email" name="email" id="email" class="form-control" placeholder="Unesite Vaš email..." required>
-      </div>
-      <div class="mb-3">
-        <label for="text" class="form-label">Vaša poruka</label>
-        <textarea name="text" id="text" class="form-control" rows="6" placeholder="Napišite šta želite..." required></textarea>
-      </div>
-      <button type="submit" class="btn btn-success">Pošaljite poruku</button>
-    </form>
-
-
-    <div class="mt-5">
-      <h2>Radno vreme</h2>
-      <ul class="list-group">
-        <li class="list-group-item">Pon-Pet: 09 - 17h</li>
-        <li class="list-group-item">Vikendom: ne radimo</li>
-      </ul>
     </div>
 
-    <div class="text-center mt-4">
-      <a href="index.html" class="btn btn-primary">Nazad</a>
+    <div class="text-center mt-5">
+      <a href="index.html" class="btn btn-secondary">Nazad</a>
     </div>
   </div>
 
-  <footer class="footer bg-dark text-white text-center py-3">
+  <footer class="footer bg-dark text-white text-center py-3 mt-5">
     <p>Grafički studio Kengo. 2025®</p>
   </footer>
 
