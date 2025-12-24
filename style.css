@@ -1,4 +1,3 @@
-/* General typography */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   line-height: 1.6;
@@ -6,12 +5,11 @@ body {
   color: #333;
 }
 
-/* Promo bar (yellow with side-to-side animation) */
 .promo-bar {
-  background: #ffc107; /* yellow */
+  background: #ffc107;
   padding: 0.5rem;
   font-weight: 600;
-  overflow: hidden; /* keeps text inside */
+  overflow: hidden; 
 }
 
 .promo-bar-content {
@@ -32,27 +30,24 @@ body {
   text-decoration: underline;
 }
 
-/* Pause animation on hover */
 .promo-bar:hover .promo-bar-content {
   animation-play-state: paused;
 }
 
-/* Keyframes for horizontal movement */
 @keyframes sideScroll {
   0% {
-    transform: translateX(100%); /* start off to the right */
+    transform: translateX(100%); 
   }
   50% {
-    transform: translateX(-100%); /* move fully to the left */
+    transform: translateX(-100%); 
   }
   100% {
-    transform: translateX(100%); /* return to the right */
+    transform: translateX(100%); 
   }
 }
 
-/* Navbar (dark with logo hover animation) */
 .navbar {
-  background-color: #212529; /* Bootstrap dark */
+  background-color: #212529; 
 }
 .navbar-brand img {
   transition: transform 0.3s ease;
@@ -61,7 +56,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Headings */
 h1, h2, h3 {
   font-weight: 700;
 }
@@ -69,7 +63,6 @@ h1, h2, h3 {
   color: #0d6efd;
 }
 
-/* Product cards */
 .product-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 10px;
@@ -83,21 +76,36 @@ h1, h2, h3 {
   border-bottom: 1px solid #eee;
 }
 
-/* Buttons */
-.btn-primary, .btn-outline-primary, .btn-secondary {
-  transition: background-color 0.3s ease, transform 0.2s ease;
+.btn-primary{
+  background-color: #0d6efd;
 }
-.btn-primary:hover, .btn-outline-primary:hover, .btn-secondary:hover {
-  transform: scale(1.05);
+.btn-secondary{
+  background-color: #0d6efd;
 }
 
-/* Footer */
+.btn-primary, .btn-outline-primary, .btn-secondary {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+ 
+}
+.btn-primary:hover, .btn-outline-primary:hover, .btn-secondary:hover {
+  transform: scale(1.05); 
+  background-color: #ffc107;
+  color: #0d6efd;
+}
+.btn-primary:hover, .btn-outline-primary:hover, .btn-secondary:hover {
+  transform: scale(1.05); 
+  background-color: #59cc0d;
+  color: #f8f9fa;
+}
 .footer {
   font-size: 0.9rem;
   letter-spacing: 0.5px;
 }
 
-/* Responsive tweaks */
+#mapa{
+  border-radius: 12px;
+}
+
 @media (max-width: 768px) {
   .promo-bar {
     font-size: 0.9rem;
